@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SlPicture } from 'react-icons/sl';
 import { IoEllipsisVertical, IoEllipsisHorizontalSharp } from 'react-icons/io5';
@@ -9,28 +9,28 @@ import SliderInput from './components/SliderInput.jsx';
 import useImageSplit from './hooks/useImageSplit.js';
 import useKeyboardShortcut from './hooks/useKeyboardShortcut.js';
 import { exportImage } from './utils/imageHelpers.js';
-import { WavyWavesBg } from './utils/WavyWavesBg.module.js';
+// import { WavyWavesBg } from '/WavyWavesBg.module.js';
 import 'uno.css';
 
 const App = () => {
-  useEffect(() => {
-    // 确保DOM元素已挂载
-    const box = document.getElementById('box');
-    if (box) {
-      new WavyWavesBg({
-        dom: 'box',
-        colors: [
-          '#001657',
-          '#002688',
-          '#0135A7',
-          '#0F40C5',
-          '#3E66F0',
-          '#001657',
-        ],
-        loop: true,
-      });
-    }
-  }, []);
+  // useEffect(() => {
+  //   // 确保DOM元素已挂载
+  //   const box = document.getElementById('box');
+  //   if (box) {
+  //     new WavyWavesBg({
+  //       dom: 'box',
+  //       colors: [
+  //         '#001657',
+  //         '#002688',
+  //         '#0135A7',
+  //         '#0F40C5',
+  //         '#3E66F0',
+  //         '#001657',
+  //       ],
+  //       loop: true,
+  //     });
+  //   }
+  // }, []);
   const [isDashboardVisible, setIsDashboardVisible] = useState(true);
   const {
     images,
@@ -57,8 +57,8 @@ const App = () => {
   }, [images, refs]);
 
   return (
-    // <div className='min-h-screen bg-gradient-to-br from-[#152050] to-[#764ba2]'>
-    <div className='min-h-screen bg-to-transparent' id='box'>
+    <div className='min-h-screen bg-gradient-to-br from-[#007FFE] to-[#F0FFFE]'>
+    {/* <div className='min-h-screen bg-to-transparent' id='box'> */}
       <div
         ref={refs.imageContainer}
         className='m-4 fixed inset-0 flex justify-center items-center overflow-hidden z-10 backdrop-blur-md rounded-xl'
