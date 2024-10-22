@@ -1,6 +1,6 @@
 # Awesome Merge Picture
 
-A tool to quickly create a preview image of a dark 和 light mode project.
+A tool to quickly create a preview image of a dark and light mode project.
 
 ![屏幕截图_11-9-2024_23127_awesome-merge-picture pages dev](https://github.com/user-attachments/assets/21b53f7b-9fec-43c7-b90f-988d67009549)
 
