@@ -1,6 +1,6 @@
 # Awesome Merge Picture
 
-Awesome Merge Picture is a web application that allows users to upload and merge two images with an interactive split-view interface. Users can adjust the split direction and position, providing a unique way to compare and blend two images.
+A tool to quickly create a preview image of a dark 和 light mode project.
 
 ![屏幕截图_11-9-2024_23127_awesome-merge-picture pages dev](https://github.com/user-attachments/assets/21b53f7b-9fec-43c7-b90f-988d67009549)
 
@@ -50,13 +50,13 @@ Awesome Merge Picture is a web application that allows users to upload and merge
    pnpm run dev
    ```
 
-4. Open your browser and visit `http://localhost:5173` to see the application.
+4. Open your browser 和 visit `http://localhost:5173` to see the application.
 
 ## Usage
 
 1. Click the upload button to select two images.
 2. Use the sliders to adjust the split position.
-3. Toggle between vertical and horizontal split directions.
+3. Toggle between vertical 和 horizontal split directions.
 4. Press the spacebar to hide/show the dashboard.
 5. Click the export button to download the merged image.
 
@@ -76,4 +76,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source 和 available under the [MIT License](LICENSE).
